@@ -1,0 +1,84 @@
+/* ფონის და შრიფტის სტილები */
+body {
+  background-color: #e6e6fa; /* ღია იისფერი */
+  font-family: 'Noto Sans Georgian', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ჰედერი */
+header {
+  background-color: #800080;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 5px solid #add8e6;
+}
+
+/* ნავიგაცია */
+nav {
+  background-color: #add8e6;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #800080;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  background-color: #800080;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* მთავარი კონტეინერი */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1100px;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* მარცხენა კონტენტი */
+.sidebar {
+  flex: 0.8;
+  background-color: #f3e5f5;
+  padding: 10px;
+  border-left: 4px solid #800080;
+  border-radius: 12px;
+}
+.slogan {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #f0e6ff;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
